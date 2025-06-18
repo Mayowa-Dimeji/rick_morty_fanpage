@@ -1,0 +1,17 @@
+.grid-wrapper {
+  /* display: flex;
+  di
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+
+  /* gap: 4px; */
+}
+
+.grid-cell {
+  width: 56px;
+  height: 56px;
+  background-color: #cfe9db;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
